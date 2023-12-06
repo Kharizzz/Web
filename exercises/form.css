@@ -13,7 +13,8 @@ body {
     }
 }
 h1 {
-    animation: animate 2s;
+    animation: animate;
+    animation-delay: 2s;
     text-align: center;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -22,13 +23,15 @@ h1 {
     margin-bottom: 5%;
 }
 h2 {
-    animation: animate 2s;
+    animation: animate;
+    animation-delay: 2s;
     font-size: 150%;
     margin-bottom: 5%;
 }
 
 form {
-    animation: animate 2s;
+    animation: animate;
+    animation-delay: 2s;
     background-color: #f1f1f1;
     width: 80%;
     border: 1px solid black;
@@ -38,16 +41,13 @@ form {
     border-radius: 10px;
 } 
 label {
-    animation: animate 2s;
     font-size: 150%;
 }
 .option {
-    animation: animate 2s;
     margin: 1% 5%;
 }
 
 .button {
-    animation: animate 2s;
     margin: 5% 25% 5% 25%;
     width: 50%;
     height: 50px;
@@ -65,12 +65,10 @@ label {
     size: 100%;
 }
 img {
-    animation: animate 2s;
     width: 10%;
     margin: 5% 20% 5% 19%;
 }
 .result {
-    animation: animate 2s;
     display: flex;
     width: 50%;
     text-align: center;
