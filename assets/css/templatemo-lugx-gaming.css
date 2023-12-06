@@ -35,6 +35,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
 figure, header, nav, section, article, aside, footer, figcaption {
+  animation: animate;
+  animation-delay: 2s;
   margin: 0;
   padding: 0;
   border: 0;
@@ -69,7 +71,8 @@ ul, li {
 }
 
 header, nav, section, article, aside, footer, hgroup {
-  animation: animate 2s;
+  animation: animate;
+  animation-delay: 2s;
   display: block;
 }
 
@@ -89,7 +92,8 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  animation: animate 2s;
+  animation: animate;
+  animation-delay: 2s;
   color: #1e1e1e;
   margin-top: 0px;
   margin-bottom: 0px;
