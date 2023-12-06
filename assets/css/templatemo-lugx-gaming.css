@@ -69,6 +69,7 @@ ul, li {
 }
 
 header, nav, section, article, aside, footer, hgroup {
+  animation: animate 2s;
   display: block;
 }
 
@@ -88,6 +89,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  animation: animate 2s;
   color: #1e1e1e;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -235,6 +237,13 @@ Pre-loader Style
       transform: translateX(-31px);
   }
 }
+
+@keyframes animate {
+    from{
+        transform: rotateX(90deg);
+    } to {
+        transform: rotateX(0deg);
+    }
 
 .preloader-inner {
   position: relative;
