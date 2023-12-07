@@ -1,3 +1,16 @@
+let nama = prompt(`Hey there, who are you?`)
+
+        let password = prompt(`What's the password`)
+
+        function validate(){
+            if (password === "pbi-3c") {
+                alert(`Good Luck With the Exercise, ${nama} 😎`)
+                document.getElementById("correct").style.visibility= "visible"
+            } else {
+                alert(`Sorry ${nama}, Wrong Password`)
+            }
+        }
+        validate()
 function submit() {
     let finalGrade = 0;
 
